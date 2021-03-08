@@ -2,6 +2,7 @@
 
 <h2>
 .Net Core App with Static List acting as a datastore. Real world would use a Document Database of some kind.
+  Please see powerpoint for more info
 </h2>
 <br/>
 <h3>
@@ -20,4 +21,4 @@
 **Use:** https://localhost:5001/XXXX
 </p>
 
-Please see powerpoint for more info
+
