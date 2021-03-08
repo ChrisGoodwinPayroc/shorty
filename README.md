@@ -17,5 +17,5 @@
 **Stats:** https://localhost:5001/Stats
 <hr/>
 
-Use:** https://localhost:5001/XXXX
+**Use:** https://localhost:5001/XXXX
 </p>
