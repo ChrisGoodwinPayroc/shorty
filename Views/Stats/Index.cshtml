@@ -1,0 +1,48 @@
+@model List<UrlModel>;
+@{
+    ViewData["Title"] = "Shorty";
+}
+
+<table>
+    <tr>
+        <thead>
+            <th>
+                Id
+            </th>
+            <th>
+                Short Url
+            </th>
+            <th>
+                Long Url
+            </th>
+            <th>
+                Date Created
+            </th>
+            <th>Click Count</th>
+            <th>Is Active</th>
+        </thead>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <tbody>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @item.ShortUrl
+                </td>
+                <td style="word-break:break-all; width: 60%">
+                    @item.LongUrl
+                </td>
+                <td>
+                    @item.DateGenerated
+                </td>
+                <td>@item.ClickCount</td>
+                <td>
+                    @item.IsActive
+                </td>
+            </tbody>
+        </tr>
+    }
+</table>

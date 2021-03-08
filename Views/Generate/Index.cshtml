@@ -1,0 +1,15 @@
+@model string;
+@{
+    ViewData["Title"] = "Shorty";
+}
+
+<form action='@Url.Action("Index", "Generate")' method="POST">
+<label for="txtUrl">Url To Shorten:</label> <input type="text" id="txtUrl" name="txtUrl">
+<br>
+<input type="submit">
+
+<br>
+<br>
+<hr />
+<label id="lblResult">@Model</label>
+</form>
